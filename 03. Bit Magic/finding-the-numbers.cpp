@@ -45,3 +45,9 @@ vector<int> singleNumber(vector<int> nums)
     return ans;
 }
 
+int main()
+{
+    vector<int> a = {1, 2, 3, 2, 1, 4};
+    vector<int> ans = singleNumber(a);
+    cout<<ans[0]<<" and "<<ans[1]<<" occur exactly once.";
+}
